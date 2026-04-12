@@ -40,7 +40,7 @@
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     display: flex; align-items: center; justify-content: space-between;
     padding: 20px 60px;
-    background: rgba(255,255,255,0.96);
+    background: rgba(255,255,255,1);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(123,47,255,0.08);
     transition: all 0.3s;
@@ -56,7 +56,7 @@
   }
 
   .logo-icon {
-    width: 36px; height: 36px;
+    height: 48px; width: auto;
   }
 
   .logo-text {
@@ -812,25 +812,7 @@
 <!-- NAV -->
 <nav id="navbar">
   <div class="logo">
-    <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="lg1" x1="0%" y1="100%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#00D4C8"/>
-          <stop offset="50%" stop-color="#2E72B8"/>
-          <stop offset="100%" stop-color="#7B2FFF"/>
-        </linearGradient>
-      </defs>
-      <path d="M50 5 A45 45 0 0 1 95 50 L83 50 A33 33 0 0 0 50 17 Z" fill="url(#lg1)"/>
-      <path d="M95 50 A45 45 0 0 1 50 95 L50 83 A33 33 0 0 0 83 50 Z" fill="url(#lg1)"/>
-      <path d="M50 95 A45 45 0 0 1 5 50 L17 50 A33 33 0 0 0 50 83 Z" fill="url(#lg1)"/>
-      <path d="M5 50 A45 45 0 0 1 50 5 L50 17 A33 33 0 0 0 17 50 Z" fill="url(#lg1)"/>
-      <rect x="10" y="46" width="35" height="8" rx="4" fill="url(#lg1)"/>
-      <rect x="55" y="46" width="35" height="8" rx="4" fill="url(#lg1)"/>
-    </svg>
-    <div>
-      <span class="logo-text">innovia</span>
-      <span class="logo-sub">VENTURES</span>
-    </div>
+    <img class="logo-icon" src="logo-innovia.png" alt="Innovia Ventures">
   </div>
   <ul class="nav-links">
     <li><a href="#cabinet">Le Cabinet</a></li>
@@ -1247,24 +1229,7 @@
     <div class="footer-grid">
       <div>
         <div class="footer-logo logo">
-          <svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="lg2" x1="0%" y1="100%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#00D4C8"/>
-                <stop offset="100%" stop-color="#7B2FFF"/>
-              </linearGradient>
-            </defs>
-            <path d="M50 5 A45 45 0 0 1 95 50 L83 50 A33 33 0 0 0 50 17 Z" fill="url(#lg2)"/>
-            <path d="M95 50 A45 45 0 0 1 50 95 L50 83 A33 33 0 0 0 83 50 Z" fill="url(#lg2)"/>
-            <path d="M50 95 A45 45 0 0 1 5 50 L17 50 A33 33 0 0 0 50 83 Z" fill="url(#lg2)"/>
-            <path d="M5 50 A45 45 0 0 1 50 5 L50 17 A33 33 0 0 0 17 50 Z" fill="url(#lg2)"/>
-            <rect x="10" y="46" width="35" height="8" rx="4" fill="url(#lg2)"/>
-            <rect x="55" y="46" width="35" height="8" rx="4" fill="url(#lg2)"/>
-          </svg>
-          <div>
-            <span class="logo-text">innovia</span>
-            <span class="logo-sub">VENTURES</span>
-          </div>
+          <img src="logo-innovia.png" alt="Innovia Ventures" style="height:40px;width:auto;">
         </div>
         <p class="footer-about">Cabinet de conseil et d'accompagnement stratégique pour les entreprises africaines — marketing, digital, RSE et performance dirigeante.</p>
         <div class="footer-domain">
